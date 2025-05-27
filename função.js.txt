@@ -1,1 +1,27 @@
-https://github.com/Hellen-JB/L-gica-de-Programa-o.git
+function login (usuario, senha) {
+if (usuario === hellen && senha === 123) {
+    console.log ("Login feito com sucesso, Hellen")
+  }else if (usuario === helena && senha === 234) {
+    console.log ("Login feito com sucesso, Helena")
+  }else if (usuario === cecília && senha === 345) {
+    console.log ("Login feito com sucesso, Cecília")
+  }else if (usuario === maitê && senha === 456) {
+    console.log ("Login feito com sucesso, Maitê")
+  }else if (usuario === laura && senha === 567) {
+    console.log ("Login feito com sucesso, Laura")
+  }else if (usuario === alice && senha === 678) {
+    console.log ("Login feito com sucesso, Alice")
+  }else if (usuario === isabella && senha === 789) {
+    console.log ("Login feito com sucesso, Isabella")
+  }else if (usuario === sophia && senha === 890) {
+    console.log ("Login feito com sucesso, Sophia")
+  }else if (usuario === aurora && senha === 901) {
+    console.log ("Login feito com sucesso, Aurora")
+} else {
+    console.log ("Usuário não encontrado, tente novamente")
+    }
+}
+let usuario = prompt("Insira seu usuário: ")
+let senha = prompt("Insira sua senha: ")
+
+login (usuario, senha)
